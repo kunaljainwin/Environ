@@ -8,6 +8,7 @@
     "type": "git",
     "url": "https://github.com/kunaljainwin/Environ.git"
   },
+  "homepage": "https://github.com/kunaljain-dev/environ",
   "icon": "asset/icon.png",
   "engines": {
     "vscode": "^1.106.1"
