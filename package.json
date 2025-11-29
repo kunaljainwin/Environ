@@ -1,0 +1,72 @@
+{
+  "name": "environ",
+  "displayName": "Environ",
+  "description": "Environ helps developers ensure consistency across machines, teams, and deployment systems by providing unified environment diagnostics and comparison tools.",
+  "version": "0.0.1",
+  "publisher": "kunaljain",
+  "engines": {
+    "vscode": "^1.106.1"
+  },
+  "categories": [
+    "Other",
+    "Programming Languages",
+    "Debuggers"
+  ],
+  "activationEvents": [],
+  "main": "./out/extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "devEnv.refreshSidebar",
+        "title": "Refresh Dev Environment Sidebar"
+      },
+      {
+        "command": "environ.compareSnapshots",
+        "title": "Environ: Compare Snapshots"
+      },
+      {
+        "command": "environ.saveSnapshot",
+        "title": "Environ: Save Environment Snapshot"
+      },
+      {
+        "command": "devEnvInfo.show",
+        "title": "Dev Environment: Show System Info"
+      }
+    ],
+    "views": {
+      "explorer": [
+        {
+          "id": "devEnvSidebar",
+          "name": "Dev Environment"
+        }
+      ]
+    },
+    "menus": {
+      "view/title": [
+        {
+          "command": "devEnv.refreshSidebar",
+          "when": "view == devEnvSidebar",
+          "group": "navigation"
+        }
+      ]
+    }
+  },
+  "scripts": {
+    "vscode:prepublish": "npm run compile",
+    "compile": "tsc -p ./",
+    "watch": "tsc -watch -p ./",
+    "pretest": "npm run compile && npm run lint",
+    "lint": "eslint src",
+    "test": "vscode-test"
+  },
+  "devDependencies": {
+    "@types/vscode": "^1.106.1",
+    "@types/mocha": "^10.0.10",
+    "@types/node": "22.x",
+    "typescript-eslint": "^8.46.3",
+    "eslint": "^9.39.1",
+    "typescript": "^5.9.3",
+    "@vscode/test-cli": "^0.0.12",
+    "@vscode/test-electron": "^2.5.2"
+  }
+}

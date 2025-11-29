@@ -1,0 +1,25 @@
+# Node
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# VS Code Extension build output
+out/
+*.vsix
+
+# VS Code workspace metadata
+.vscode-test/
+.vscode-test.mjs
+.vscode-test.js
+.vscode-test/
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Vite/Webpack bundles (if using)
+dist/
+media/*.js.map
