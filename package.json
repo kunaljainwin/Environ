@@ -1,8 +1,8 @@
 {
-  "name": "enviro",
-  "displayName": "Environ",
+  "name": "environ-inspector",
+  "displayName": "Environ Inspector",
   "description": "Environ helps developers ensure consistency across machines, teams, and deployment systems by providing unified environment diagnostics and comparison tools.",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "publisher": "kunaljain",
   "repository": {
     "type": "git",

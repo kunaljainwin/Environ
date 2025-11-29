@@ -1,6 +1,8 @@
-# 🌿 **Environ – Developer Environment Inspector**
+<p align="center">
+  <img src="asset/banner.png" alt="Environ Banner" style="width:100%; max-width:900px;">
+</p>
 
-Environ is a developer-focused VS Code extension that gives you **deep visibility** into your local system environment.
+Environ Inspector is a developer-focused VS Code extension that gives you **deep visibility** into your local system environment.
 
 It helps you:
 
@@ -17,10 +19,8 @@ Perfect for debugging environment issues, onboarding new machines, validating de
 ## 📸 Screenshots :
 
 <div style="display: flex; overflow-x: auto; gap: 16px; padding: 10px 0;">
-  <img src="asset/icon.png" alt="Extension Banner" width="400"/>
-  <img src="asset/banner.png" alt="Extension Banner" width="400"/>
-  <img src="asset/system-info.png" alt="System Info Panel" width="400"/>
-  <img src="asset/environment-variables.png" alt="Environment Variables Panel" width="400"/>
+  <img src="asset/system-info.png" alt="System Info Panel" />
+  <img src="asset/environment-variables.png" alt="Environment Variables   "/>
 </div>
 
 

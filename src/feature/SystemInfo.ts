@@ -79,111 +79,111 @@ const windowsTools = [
     "luajit", "lua",
 
     // 🧰 Build tools
-    "make", "nmake",
-    "cmake",
-    "ninja",
-    "gradle", "gradlew",
-    "mvn", "mvn.cmd",
-    "ant",
+    // "make", "nmake",
+    // "cmake",
+    // "ninja",
+    // "gradle", "gradlew",
+    // "mvn", "mvn.cmd",
+    // "ant",
 
-    // 📦 Package managers
-    "winget",
-    "choco", "choco.exe",
-    "scoop",
-    "conda", "mamba",
-    "yarn", "yarnpkg",
-    "pnpm",
-    "pipenv",
-    "poetry",
+    // // 📦 Package managers
+    // "winget",
+    // "choco", "choco.exe",
+    // "scoop",
+    // "conda", "mamba",
+    // "yarn", "yarnpkg",
+    // "pnpm",
+    // "pipenv",
+    // "poetry",
 
-    // 🏗️ DevOps / Cloud CLIs
-    "docker", "docker-compose",
-    "kubectl",
-    "helm",
-    "terraform",
-    "aws",
-    "az",
-    "gcloud",
-    "doctl", // DigitalOcean
-    "flyctl",
+    // // 🏗️ DevOps / Cloud CLIs
+    // "docker", "docker-compose",
+    // "kubectl",
+    // "helm",
+    // "terraform",
+    // "aws",
+    // "az",
+    // "gcloud",
+    // "doctl", // DigitalOcean
+    // "flyctl",
 
-    // 🗄️ Databases & DB Tools
-    "mysql",
-    "mysqldump",
-    "psql",
-    "pg_dump",
-    "sqlite3",
-    "mongosh", "mongo",
-    "redis-cli",
-    "cqlsh", // Cassandra
-    "sqlcmd", // Microsoft SQL
+    // // 🗄️ Databases & DB Tools
+    // "mysql",
+    // "mysqldump",
+    // "psql",
+    // "pg_dump",
+    // "sqlite3",
+    // "mongosh", "mongo",
+    // "redis-cli",
+    // "cqlsh", // Cassandra
+    // "sqlcmd", // Microsoft SQL
 
-    // 🛠️ Version control
-    "git", "gh", // GitHub CLI
-    "glab", // GitLab CLI
+    // // 🛠️ Version control
+    // "git", "gh", // GitHub CLI
+    // "glab", // GitLab CLI
 
-    // 🌐 Networking tools
-    "curl",
-    "wget",
-    "http", // HTTPie
-    "openssl",
-    "netstat",
-    "whois",
-    "dig",
-    "nslookup",
+    // // 🌐 Networking tools
+    // "curl",
+    // "wget",
+    // "http", // HTTPie
+    // "openssl",
+    // "netstat",
+    // "whois",
+    // "dig",
+    // "nslookup",
 
-    // 🐳 Container/VM
-    "vagrant",
-    "minikube",
-    "kind",
+    // // 🐳 Container/VM
+    // "vagrant",
+    // "minikube",
+    // "kind",
 
-    // ⚙️ System scripting tools
-    "powershell",
-    "pwsh",
-    "bash",
-    "zsh",
-    "fish",
+    // // ⚙️ System scripting tools
+    // "powershell",
+    // "pwsh",
+    // "bash",
+    // "zsh",
+    // "fish",
 
-    // 📁 File/Process tools
-    "7z",
-    "tar",
-    "gzip",
-    "gunzip",
-    "zip",
-    "unzip",
+    // // 📁 File/Process tools
+    // "7z",
+    // "tar",
+    // "gzip",
+    // "gunzip",
+    // "zip",
+    // "unzip",
 
-    // 🧪 Testing tools
-    "jest",
-    "mocha",
-    "vitest",
-    "pytest",
-    "nosetests",
+    // // 🧪 Testing tools
+    // "jest",
+    // "mocha",
+    // "vitest",
+    // "pytest",
+    // "nosetests",
 
-    // 🧬 AI/ML tools
-    "uv",
-    "pipx",
-    "huggingface-cli",
-    "ollama",
+    // // 🧬 AI/ML tools
+    // "uv",
+    // "pipx",
+    // "huggingface-cli",
+    // "ollama",
 
-    // 📦 Misc dev utilities
-    "eslint",
-    "prettier",
-    "ts-node",
-    "tsc",
-    "webpack",
-    "rollup",
-    "vite",
-    "eslint",
-    "prettier",
-    "nodemon",
-    "pm2",
+    // // 📦 Misc dev utilities
+    // "eslint",
+    // "prettier",
+    // "ts-node",
+    // "tsc",
+    // "webpack",
+    // "rollup",
+    // "vite",
+    // "eslint",
+    // "prettier",
+    // "nodemon",
+    // "pm2",
 
-    // 📝 Formatters / Linters
-    "black",
-    "flake8",
-    "mypy",
-    "ruff",
-    "pylint"
+    // // 📝 Formatters / Linters
+    // "black",
+    // "flake8",
+    // "mypy",
+    // "ruff",
+    // "pylint"
 ];
 
 function extractVersion(str: string): string {

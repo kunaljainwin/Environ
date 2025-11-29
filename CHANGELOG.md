@@ -4,7 +4,11 @@ All notable changes to the **Environ** extension will be documented here.
 
 ---
 
-## [1.0.0] - 2025-01-01
+## [0.0.2] - 2025-01-01
+### Added
+- Logo fixed.
+
+## [0.0.1] - 2025-01-01
 ### Added
 - Initial release of Environ extension.
 - System Information panel showing OS, CPU, memory, and kernel.
@@ -18,7 +22,7 @@ All notable changes to the **Environ** extension will be documented here.
 
 ---
 
-## Planned (1.1.0)
+## Planned (0.0.3)
 ### Upcoming Enhancements
 - Copy-to-clipboard for Env Vars & Versions.
 - Open snapshot diff directly from sidebar.
