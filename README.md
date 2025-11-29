@@ -14,6 +14,17 @@ It helps you:
 Perfect for debugging environment issues, onboarding new machines, validating dev setups, or sharing reproducible configurations across teams.
 
 ---
+## 📸 Screenshots :
+
+<div style="display: flex; overflow-x: auto; gap: 16px; padding: 10px 0;">
+  <img src="asset/icon.png" alt="Extension Banner" width="400"/>
+  <img src="asset/banner.png" alt="Extension Banner" width="400"/>
+  <img src="asset/system-info.png" alt="System Info Panel" width="400"/>
+  <img src="asset/environment-variables.png" alt="Environment Variables Panel" width="400"/>
+</div>
+
+
+---
 
 # ✨ **Features**
 
@@ -77,20 +88,6 @@ A permanent panel inside the Explorer sidebar:
 * Snapshots
 
 Auto-refreshable and easy to browse.
-
----
-
-# 🖼 Screenshots
-
-> You can place images in the `images/` folder.
-
-```
-![System Info Panel](images/system-info.png)
-![Snapshot Diff](images/snapshot-diff.png)
-![TreeView](images/sidebar.png)
-```
-
-If you want, I can generate these screenshots programmatically or create placeholder graphics.
 
 ---
 
